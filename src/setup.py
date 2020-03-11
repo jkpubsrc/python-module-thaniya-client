@@ -19,11 +19,11 @@ setup(
 	author = "Jürgen Knauth",
 	author_email = "pubsrc@binary-overflow.de",
 	classifiers = [
-		"Development Status :: 3 - Alpha",
+		"Development Status :: 4 - Beta",
 		"License :: OSI Approved :: Apache Software License",
 	],
 	description = "This python module implements the Thania Backup Client classes used to implement backup scripts.",
-	download_url = "https://github.com/jkpubsrc/python-module-thaniya-client/tarball/0.2020.3.11",
+	download_url = "https://github.com/jkpubsrc/python-module-thaniya-client/tarball/0.2020.3.11.1",
 	include_package_data = False,
 	install_requires = [
 		"jk_utils",
@@ -43,8 +43,11 @@ setup(
 		"thaniya_client",
 		"thaniya_client.utils",
 	],
+	scripts = [
+		"bin/thania_helper_mysql_get_db_size.py",
+	],
 	url = "https://github.com/jkpubsrc/python-module-thaniya-client",
-	version = "0.2020.3.11",
+	version = "0.2020.3.11.1",
 	zip_safe = False,
 	long_description = readme(),
 	long_description_content_type="text/markdown",

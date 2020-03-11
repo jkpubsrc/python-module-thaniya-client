@@ -18,7 +18,8 @@ from .utils.temp import writeTempFile
 
 class ThaniyaMySQL:
 
-	__GET_DB_SIZE_HELPER_PATH = "/home/jknauth/DevOS/Projects/thaniya_client/src/bin/thania_helper_mysql_get_db_size.py"
+	assert os.path.dirname(__file__).startswith("/usr/local/")
+	__GET_DB_SIZE_HELPER_PATH = "/usr/local/bin/thania_helper_mysql_get_db_size.py"
 
 	@staticmethod
 	def mySQLDump(ctx:ThaniyaBackupContext, dbName:str, dbUserName:str, dbPassword:str, outputDumpFilePath:str) -> int:
