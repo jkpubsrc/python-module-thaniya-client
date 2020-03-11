@@ -22,7 +22,7 @@ class ThaniyaMySQL:
 	__GET_DB_SIZE_HELPER_PATH = "/usr/local/bin/thania_helper_mysql_get_db_size.py"
 
 	@staticmethod
-	def mySQLDump(ctx:ThaniyaBackupContext, dbName:str, dbUserName:str, dbPassword:str, outputDumpFilePath:str) -> int:
+	def mySQLDump(ctx:ThaniyaBackupContext, dbName:str, dbUserName:str, dbPassword:str, outputDumpFilePath:str):
 
 		assert isinstance(ctx, ThaniyaBackupContext)
 		assert isinstance(dbName, str)
