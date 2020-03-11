@@ -3,7 +3,6 @@
 
 import os
 
-from jk_testing import Assert
 import jk_utils
 
 from .AbstractBackupConnector import AbstractBackupConnector

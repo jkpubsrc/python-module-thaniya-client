@@ -5,7 +5,6 @@ import time
 import os
 import subprocess
 
-from jk_testing import Assert
 import jk_utils
 import jk_mounting
 

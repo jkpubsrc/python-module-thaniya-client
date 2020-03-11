@@ -8,7 +8,6 @@ import subprocess
 import string
 import random
 
-from jk_testing import Assert
 import jk_utils
 import jk_mounting
 

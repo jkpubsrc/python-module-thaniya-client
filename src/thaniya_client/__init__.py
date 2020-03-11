@@ -1,7 +1,7 @@
 ﻿
 
 
-__version__ = "0.2020.3.11.2"
+__version__ = "0.2020.3.11.3"
 
 
 
@@ -29,7 +29,6 @@ from .ThaniyaTask_BackupTypo3 import ThaniyaTask_BackupTypo3
 from .AbstractTargetDirectoryStrategy import AbstractTargetDirectoryStrategy
 from .TargetDirectoryStrategy_StaticDir import TargetDirectoryStrategy_StaticDir
 from .TargetDirectoryStrategy_DateDefault import TargetDirectoryStrategy_DateDefault
-
 
 
 

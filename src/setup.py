@@ -23,7 +23,7 @@ setup(
 		"License :: OSI Approved :: Apache Software License",
 	],
 	description = "This python module implements the Thania Backup Client.",
-	download_url = "https://github.com/jkpubsrc/python-module-thaniya-client/tarball/0.2020.3.11.2",
+	download_url = "https://github.com/jkpubsrc/python-module-thaniya-client/tarball/0.2020.3.11.3",
 	include_package_data = False,
 	install_requires = [
 		"jk_utils",
@@ -47,7 +47,7 @@ setup(
 		"bin/thania_helper_mysql_get_db_size.py",
 	],
 	url = "https://github.com/jkpubsrc/python-module-thaniya-client",
-	version = "0.2020.3.11.2",
+	version = "0.2020.3.11.3",
 	zip_safe = False,
 	long_description = readme(),
 	long_description_content_type="text/markdown",

@@ -1,7 +1,7 @@
 {
 	"language": "python3",
 	"name": "thaniya_client",
-	"version": "0.2020.3.11.2",
+	"version": "0.2020.3.11.3",
 	"meta": {
 		"description": "This python module implements the Thania Backup Client.",
 		"keywords": [

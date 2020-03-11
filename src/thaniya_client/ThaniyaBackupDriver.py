@@ -10,7 +10,7 @@ import shutil
 
 import jk_utils
 import jk_logging
-from jk_testing import Assert
+#from jk_testing import Assert
 import jk_json
 from jk_typing import checkFunctionSignature
 
@@ -163,7 +163,8 @@ class ThaniyaBackupDriver(object):
 		):
 
 		for x in backupTasks:
-			Assert.isInstance(x, AbstractThaniyaTask)
+			assert isinstance(x, AbstractThaniyaTask)
+			#Assert.isInstance(x, AbstractThaniyaTask)
 
 		mainLog = jk_logging.MulticastLogger.create(
 			jk_logging.ConsoleLogger.create(logMsgFormatter=jk_logging.COLOR_LOG_MESSAGE_FORMATTER),
@@ -201,7 +202,8 @@ class ThaniyaBackupDriver(object):
 
 					nExpectedBytesToWrite = 0
 					for job in backupTasks:
-						Assert.isInstance(job, AbstractThaniyaTask)
+						assert isinstance(job, AbstractThaniyaTask)
+						#Assert.isInstance(job, AbstractThaniyaTask)
 
 						nestedCtx = ctx.descend(job.logMessageCalculateSpaceRequired)
 						with nestedCtx.log as nestedLog:
@@ -286,7 +288,8 @@ class ThaniyaBackupDriver(object):
 					) as ctx:
 
 						for job in backupTasks:
-							Assert.isInstance(job, AbstractThaniyaTask)
+							assert isinstance(job, AbstractThaniyaTask)
+							#Assert.isInstance(job, AbstractThaniyaTask)
 
 							nestedCtx = ctx.descend(job.logMessagePerformBackup)
 							with nestedCtx.log as nestedLog:
