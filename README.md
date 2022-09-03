@@ -8,7 +8,7 @@ This python module ...
 
 Information about this module can be found here:
 
-* [github.org](https://github.com/jkpubsrc/....)
+* [github.com](https://github.com/jkpubsrc/python-module-thaniya-client)
 * [pypi.python.org](https://pypi.python.org/pypi/thaniya_client)
 
 Why this module?
